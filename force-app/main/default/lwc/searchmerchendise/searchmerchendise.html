@@ -1,0 +1,25 @@
+<template>
+    <div>
+        <lightning-input 
+        type="text" 
+        label="Merchandise Name" 
+        value={accName} 
+        onchange={handleOnChangeaccName}>
+        </lightning-input>
+        
+        <lightning-input 
+        type="text" 
+        label="Merchandise Stock" 
+        value={accPhone} 
+        onchange={handleOnChangeaccPhone}>
+        </lightning-input>
+     
+        <lightning-button 
+        variant="brand" 
+        label="Search Merchandise" 
+        title="Click here to initiate Search" 
+        onclick={initiateSearch}>
+        </lightning-button>
+     
+    </div>
+</template>
